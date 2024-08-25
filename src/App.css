@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+}
+
+body{
+  background-color: #F5F7F8;
+  
+}
+
+.box{
+  width:500px;
+  max-width:1200px;
+  background-color: aliceblue;
+  color: black !important;
+  border-radius: 25px;
+  z-index:1;
+  box-shadow: 0px 0px 30px 20px #d4d2d2;
+
+}
+.box-val{
+  width:100%;
+    text-wrap: wrap;
+    z-index:5;
+
+
+}
+
+.shadowStyling{
+  border-radius: 15%;
+  box-shadow: 0px 0px 30px 20px #d4d2d2;
+}
+
+.formStyling{
+  border-radius: 5%;
+    box-shadow: 0px 0px 10px 10px #d4d2d2;
+
+
+
+}
+
+.quoteStyling{
+  background-image: url('/public/Images/pexels-magda-ehlers-pexels-960137.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.addQuoteStyling{
+  background-color: #EEF7FF;
+  
+}
