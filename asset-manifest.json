@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/randomquote/static/css/main.7ebfdf85.css",
+    "main.js": "/randomquote/static/js/main.8d89cee3.js",
+    "static/js/453.f42ee627.chunk.js": "/randomquote/static/js/453.f42ee627.chunk.js",
+    "static/media/pexels-magda-ehlers-pexels-960137.jpg": "/randomquote/static/media/pexels-magda-ehlers-pexels-960137.85a8d1627cb67c0642c2.jpg",
+    "index.html": "/randomquote/index.html",
+    "main.7ebfdf85.css.map": "/randomquote/static/css/main.7ebfdf85.css.map",
+    "main.8d89cee3.js.map": "/randomquote/static/js/main.8d89cee3.js.map",
+    "453.f42ee627.chunk.js.map": "/randomquote/static/js/453.f42ee627.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ebfdf85.css",
+    "static/js/main.8d89cee3.js"
+  ]
+}
