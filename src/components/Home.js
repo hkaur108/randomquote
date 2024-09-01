@@ -14,9 +14,9 @@ export default function Home() {
     <div className='container bg-light py-3 my-3 shadowStyling ' style={{width:"550px",height:"300px"}}>
       <div className="row py-3">
         <div className="col-6">
-        <h6 className='text-capitalize '>add your own Quote:</h6>
+        <h6 className='text-capitalize text-center'>add your own Quote:</h6>
         </div>
-        <div className="col-6">
+        <div className="col-6 d-flex justify-content-center">
             <button className='btn btn-info ' onClick={()=>navigate('/add')}>Add Quote</button>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function Home() {
             <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
         Instructions:
       </button>
     </h2>

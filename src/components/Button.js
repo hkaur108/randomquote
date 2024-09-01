@@ -25,8 +25,7 @@ export default function Button() {
 
   return (
     <div>
-      <button className='btn btn-outline-info text-capitalize my-1' onClick={handleClick}>next</button>
-      
+      <button className='btn btn-info text-capitalize my-1 text-success' onClick={handleClick}>next</button>
     </div>
   )
 }

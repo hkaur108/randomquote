@@ -35,14 +35,14 @@ export default function AddQuote() {
 
 
   return (
-    <div className='m-5 mx-auto' style={{width:"850px",height:"300px"}}>
+    <div className='my-3 mx-auto py-1' style={{width:"690px",height:"300px"}}>
       <h3 className='text-center my-2 text-success'>Add Quote to the List</h3>
       {(text) ?  (<div class="alert alert-success" role="alert">
         Quote has been added to the list</div>) :""}
         <form 
         type="submit" 
         onSubmit={handleSubmit} 
-        className='container p-5 formStyling' 
+        className='container p-5 formStyling bg-white' 
         >
             <div className="row">
                 <div className="col-6 text-capitalize text-center">
@@ -51,13 +51,14 @@ export default function AddQuote() {
                   <textarea 
                   required
                   maxLength={100}
-                  minLength={20}
+                  minLength={5}
                   className='p-1 w-100 text-capitalize'
                   rows={5}
                   type="text"
                   name="quote" 
                   placeholder='enter quote'
                   value={addquote.quote} 
+                  autoComplete='off'  
                   onFocus={()=>settext(false)}
                   onChange={(e)=>setaddquote({...addquote,id:allquotes.length+1, [e.target.name]:e.target.value})}>
                   </textarea>
@@ -70,8 +71,9 @@ export default function AddQuote() {
                 <div className="col-6 text-capitalize">
                 <input 
                 required
+                pattern='[A-Za-z]+'
                 maxLength={30}
-                minLength={5}
+                minLength={3}
                 className='p-1 text-capitalize'
                 type="text" 
                 placeholder='enter name' 
